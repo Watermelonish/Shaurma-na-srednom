@@ -21,8 +21,9 @@
 
 #bth{
     position: absolute;
-    left: 35%;
-    top: 80%;
+    width: 100%;
+    text-align: center;
+    top: 85%;
 }
 
 .mainh1{

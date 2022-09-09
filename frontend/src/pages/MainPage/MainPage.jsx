@@ -17,15 +17,15 @@ function MainPage() {
     <div class="card">
         <div className='cardlitle'>
             <img src="https://shaurma-best.ru/assets/images/products/103/310x210/imgl9915.jpg" class="card-img-top" alt="..." />
-            <button type="button" class="btn btn-dark" id='bth'>Заказать</button>
+            <button type="button" class="btn btn-outline-dark" id='bth'>Заказать</button>
         </div>
         <div className='cardlitle'>
             <img src="https://shaurma-best.ru/assets/images/products/103/310x210/imgl9915.jpg" class="card-img-top" alt="..." />
-            <button type="button" class="btn btn-dark" id='bth'>Заказать</button>
+            <button type="button" class="btn btn-outline-danger" id='bth'>Заказать</button>
     </div>
         <div className='cardlitle'>
             <img src="https://shaurma-best.ru/assets/images/products/103/310x210/imgl9915.jpg" class="card-img-top" alt="..." />
-            <button type="button" class="btn btn-dark" id='bth'>Заказать</button>
+            <button type="button" class="btn btn-outline-success" id='bth'>Заказать</button>
         </div>
     </div>
 </div>
@@ -33,15 +33,15 @@ function MainPage() {
     <div class="card">
         <div className='cardlitle'>
             <img src="https://shaurma-best.ru/assets/images/products/88/310x210/imgl0454.jpg" class="card-img-top" alt="..." />
-            <button type="button" class="btn btn-dark" id='bth'>Заказать</button>
+            <button type="button" class="btn btn-outline-dark" id='bth'>Заказать</button>
         </div>
         <div className='cardlitle'>
             <img src="https://shaurma-best.ru/assets/images/products/88/310x210/imgl0454.jpg" class="card-img-top" alt="..." />
-            <button type="button" class="btn btn-dark" id='bth'>Заказать</button>
+            <button type="button" class="btn btn-outline-danger" id='bth'>Заказать</button>
     </div>
         <div className='cardlitle'>
             <img src="https://shaurma-best.ru/assets/images/products/88/310x210/imgl0454.jpg" class="card-img-top" alt="..." />
-            <button type="button" class="btn btn-dark" id='bth'>Заказать</button>
+            <button type="button" class="btn btn-outline-success" id='bth'>Заказать</button>
         </div>
     </div>
     </div>
@@ -49,15 +49,15 @@ function MainPage() {
     <div class="card">
         <div className='cardlitle'>
             <img src="https://shaurma-best.ru/assets/images/products/189/310x210/imgl0095-1.jpg" class="card-img-top" alt="..." />
-            <button type="button" class="btn btn-dark" id='bth'>Заказать</button>
+            <button type="button" class="btn btn-outline-dark" id='bth'>Заказать</button>
         </div>
         <div className='cardlitle'>
             <img src="https://shaurma-best.ru/assets/images/products/189/310x210/imgl0095-1.jpg" class="card-img-top" alt="..." />
-            <button type="button" class="btn btn-dark" id='bth'>Заказать</button>
+            <button type="button" class="btn btn-outline-danger" id='bth'>Заказать</button>
     </div>
         <div className='cardlitle'>
             <img src="https://shaurma-best.ru/assets/images/products/189/310x210/imgl0095-1.jpg" class="card-img-top" alt="..." />
-            <button type="button" class="btn btn-dark" id='bth'>Заказать</button>
+            <button type="button" class="btn btn-outline-success" id='bth'>Заказать</button>
         </div>
     </div>
     </div>
