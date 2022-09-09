@@ -5,10 +5,9 @@ const express = require('express');
 const morgan = require('morgan');
 const session = require('express-session');
 const FileStore = require('session-file-store')(session);
-const dbConnectCheck = require('../db/dbConnectionCheck')
+const dbConnectCheck = require('../db/dbConnectionCheck');
 
 // const { sequelize } = require('../db/models');
-
 
 const app = express();
 
@@ -36,11 +35,11 @@ const sessionConfig = {
 app.use(session(sessionConfig));
 
 app.listen(PORT, async () => {
-    try {
-      await dbConnectCheck();
-      console.log('Соединение с базой установлено!');
-    } catch (err) {
-      console.log(err, 'Error!');
-    }
-    console.log(`Сервер поднят на ${PORT} порту!`);
-  });
+  try {
+    await dbConnectCheck();
+    console.log('Соединение с базой установлено!');
+  } catch (err) {
+    console.log(err, 'Error!');
+  }
+  console.log(`Сервер поднят на ${PORT} порту!`);
+});

@@ -1,0 +1,28 @@
+#carouselExampleControls{
+    width: 70%;
+}
+
+.card{
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+}
+.card-img-top{
+    position:relative;
+}
+
+.mainDiv{
+  position: relative;
+  background-image: url(https://cdn.dribbble.com/users/676008/screenshots/3793620/burger-pattern.png);  
+}
+
+.cardlitle{
+    width: 33.3%;
+    display: flex;
+}
+
+#bth{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 8.5%;
+}
