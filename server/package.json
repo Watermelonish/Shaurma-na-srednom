@@ -1,0 +1,55 @@
+{
+  "name": "p2w1d3",
+  "version": "1.0.0",
+  "description": "## Общие сведения",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js --ignore sessions --ext js,jsx",
+    "initdb": "npx sequelize db:create\nnpx sequelize-cli db:migrate:undo:all\nnpx sequelize-cli db:migrate\nnpx sequelize-cli db:seed:all\n"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/register": "^7.18.9",
+    "bcrypt": "^5.0.1",
+    "bootstrap": "^5.2.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sequelize": "^6.21.3",
+    "sequelize-cli": "^6.4.1",
+    "session-file-store": "^1.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewNagikh/core-express-blog-anonymous.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AndrewNagikh/core-express-blog-anonymous/issues"
+  },
+  "homepage": "https://github.com/AndrewNagikh/core-express-blog-anonymous#readme"
+}
