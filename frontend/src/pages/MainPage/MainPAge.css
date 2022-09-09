@@ -11,18 +11,32 @@
     position:relative;
 }
 
-.mainDiv{
-  position: relative;
-  background-image: url(https://cdn.dribbble.com/users/676008/screenshots/3793620/burger-pattern.png);  
-}
+
 
 .cardlitle{
+    position: relative;
     width: 33.3%;
     display: flex;
 }
 
 #bth{
     position: absolute;
-    margin-top: 15%;
-    margin-left: 8.5%;
+    left: 35%;
+    top: 80%;
+}
+
+.mainh1{
+    color:#701010 ;
+}
+
+.p1{
+    color: #707070;
+}
+
+.p2{
+    color: #a80000;
+}
+
+.p3{
+    color: #701010;
 }
