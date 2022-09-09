@@ -11,6 +11,7 @@ const Navigation = () => {
             <header>
                 <NavLink to='Main'>Главная</NavLink>
                 <NavLink to='Shop'>Магазин</NavLink>
+                <NavLink to='Contacts'> Контактная Информация</NavLink>
             </header>
         </>
     )

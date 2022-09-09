@@ -1,0 +1,36 @@
+.spaceAdd{
+    font-size: 20px; line-height: 30px;
+}
+
+.feedbackForm {
+    width:500px;
+}
+
+.menuItem{
+    padding: 10px !important;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.questionField{
+    height: 400px;
+}
+
+.contactUsBox{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+h1{
+   color: #E6B24E;
+}
+
+.textArea{
+    border-radius: 7px
+}
