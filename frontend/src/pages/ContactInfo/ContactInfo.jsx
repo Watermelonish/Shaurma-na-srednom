@@ -56,35 +56,38 @@ const ContactInfo = () => {
       <h1>Обратная связь:</h1>
 
       <FormControl className="feedbackForm">
-      <label>Обязательное поле: <span class="red">*</span></label>
+      <label>Ваше имя: <span class="red">*</span></label>
       <br />
         <TextField
           className="menuItem"
           required
           id="username"
-          defaultValue="Ваше имя"
+
         />
-        <label>Обязательное поле: <span class="red">*</span></label>
+        <br />
+        <label>Ваш телефон: <span class="red">*</span></label>
         <br />
         <TextField
           className="menuItem"
           required
           id="phone"
-          defaultValue="Телефон"
+
         />
-        <label>Обязательное поле: <span class="red">*</span></label>
+        <br />
+        <label>Ваш email: <span class="red">*</span></label>
         <br />
         <TextField
           className="menuItem"
           required
           id="Email"
-          defaultValue="E-mail"
+
         />
         <br />
         <label>Тема сообщения: <span class="red">*</span></label>
+        <br />
         <FormControl fullWidth>
         <InputLabel id="demo-simple-select-label">-- Выберите тему</InputLabel>
-        <Select className="menuItem"
+        <Select className="menuItem" name=""
         
           labelId="demo-simple-select-label"
           id="demo-simple-select"
@@ -93,8 +96,8 @@ const ContactInfo = () => {
           onChange={handleChange}
         >
           <MenuItem value={10} >Директору</MenuItem>
-          <MenuItem value={20}>Мэнеджеру</MenuItem>
-          <MenuItem value={30}>Сотрудничество</MenuItem>
+          <MenuItem value={'Мэнеджеру'}>Мэнеджеру</MenuItem>
+          <MenuItem value={'Сотрудничество'}>Сотрудничество</MenuItem>
           <MenuItem value={30}>Прочее</MenuItem>
         </Select>
         </FormControl>
@@ -113,7 +116,7 @@ const ContactInfo = () => {
         <br />
         <br />
         <br />
-        <Button variant="contained" endIcon={<SendIcon />}>
+        <Button variant="contained" style={{ width: 150 }} endIcon={<SendIcon />}>
           Send
         </Button>
       </FormControl>
