@@ -1,0 +1,15 @@
+.Card {
+    display:flex;
+    flex-direction: row;
+    align-content: space-evenly;
+    align-items: center;
+    margin:4px;
+}
+.Card * {
+    margin-left: 10px
+}
+
+.Card .inputQuantity {
+    width: 100px;
+    font-size: 40px;
+}
