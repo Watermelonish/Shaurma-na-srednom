@@ -5,12 +5,14 @@ const express = require('express');
 const morgan = require('morgan');
 const session = require('express-session');
 const FileStore = require('session-file-store')(session);
+const cors = require('cors');
 const dbConnectCheck = require('../db/dbConnectionCheck')
 
 // const { sequelize } = require('../db/models');
 
-
 const app = express();
+
+const contactsRouter = require("./routes/contactsRoute")
 
 app.use(morgan('dev'));
 // Чтобы наши статические файлы были видны браузеру, мы должны их подключить
@@ -33,7 +35,19 @@ const sessionConfig = {
   },
 };
 
+const corsOptions = {
+  credentials: true, 
+  origin: 'http://localhost:3000' // адрес сервера React
+}
+app.use(cors(corsOptions));
 app.use(session(sessionConfig));
+
+// routes
+app.use('/contacts', contactsRouter)
+
+
+
+
 
 app.listen(PORT, async () => {
     try {
