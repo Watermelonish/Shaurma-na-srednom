@@ -9,9 +9,11 @@ const Navigation = () => {
     return (
         <>
             <header>
-                <NavLink to='Main'>Главная</NavLink>
-                <NavLink to='Shop'>Магазин</NavLink>
-                <NavLink to='Contacts'> Контактная Информация</NavLink>
+
+                <NavLink to='main'>Главная</NavLink>
+                <NavLink to='shop'>Магазин</NavLink>
+                <NavLink to='basket'>Корзина</NavLink>
+
             </header>
         </>
     )
