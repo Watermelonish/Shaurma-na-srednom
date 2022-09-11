@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bd71e58-c744-4614-8a18-c6b20ff9b471" name="Changes" comment="basket + inputQuantity">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/OrderForm/OrderForm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/OrderForm/OrderForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/Layout/Layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Layout/Layout.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/Navigation/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Navigation/Navigation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/OrderForm/OrderForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/OrderForm/OrderForm.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/OrderForm/OrderForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/OrderForm/OrderForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/pages/Basket/Basket.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Basket/Basket.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/pages/ContactInfo/ContactInfo.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/ContactInfo/ContactInfo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/env_example" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662714417671</updated>
       <workItem from="1662714419299" duration="48127000" />
-      <workItem from="1662867857976" duration="13479000" />
+      <workItem from="1662867857976" duration="13794000" />
     </task>
     <task id="LOCAL-00001" summary="front init">
       <created>1662716604299</created>
