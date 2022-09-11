@@ -13,7 +13,7 @@ const Navigation = () => {
                 <NavLink to='main'>Главная</NavLink>
                 <NavLink to='shop'>Магазин</NavLink>
                 <NavLink to='basket'>Корзина</NavLink>
-
+                <NavLink to='Contacts'> Контактная Информация</NavLink>
             </header>
         </>
     )

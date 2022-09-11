@@ -1,0 +1,56 @@
+.column-center{
+    background: url(http://localhost:3100/static/media/ugli.d5333f4….jpg) repeat scroll 0 0 rgb(0 0 0 / 47%);
+    float: right;
+    margin: 0 15px 15px 0;
+    padding: 25px;
+    min-width: 709px;
+    max-width: 709px;
+    border-radius: 7px;
+    min-height: 820px;
+}
+.chip{
+    background-color: #282c34;
+}
+.spaceAdd{
+    font-size: 20px; line-height: 30px;
+}
+
+.feedbackForm {
+    width:500px;
+}
+
+
+
+.menuItem{
+    padding: 10px !important;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.questionField{
+    height: 400px;
+}
+
+.orderForm{
+    /*background: url(../../../public/img/ugli.jpg) no-repeat scroll center bottom #000000;*/
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+    padding: 100px !important;
+}
+
+h1{
+    color: #E6B24E;
+}
+
+.textArea{
+    border-radius: 7px
+}
+
+#privacylink{
+    color: yellow;
+}

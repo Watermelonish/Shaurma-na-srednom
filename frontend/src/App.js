@@ -25,7 +25,6 @@ function App() {
           <Route path="/basket" element={<Basket />}/>
 
           <Route path="/contacts" element={<ContactInfo />}/>
-
         </Route>
       </Routes>
     </div>
