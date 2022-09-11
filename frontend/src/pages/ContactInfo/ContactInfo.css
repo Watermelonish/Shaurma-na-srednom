@@ -1,5 +1,5 @@
 .spaceAdd{
-    font-size: 20px; line-height: 30px;
+    font-size: 20px; line-height: 10px;
 }
 
 .feedbackForm {
@@ -9,24 +9,24 @@
 
 
 .menuItem{
-    padding: 10px !important;
+    margin: 10px !important;
     background-color: white;
     border-radius: 7px;
+    font-size: 24px;
 }
 
-.questionField{
-    height: 400px;
-}
 
-.column-center{
+
+.orderForm{
+    top:20px;
     background: url(http://localhost:3000/static/media/ugli.d5333f4….jpg) repeat scroll 0 0 rgb(0 0 0 / 47%);;
     float: right;
-    margin: 0 15px 15px 0;
-    padding: 25px;
+    /*margin: 0 15px 15px 0;*/
+    /*padding: 25px;*/
     min-width: 709px;
     max-width: 709px;
-    border-radius: 7px;
-    min-height: 820px;
+    border-radius: 20px;
+    /*min-height: 820px;*/
 }
 
 

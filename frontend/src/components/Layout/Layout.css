@@ -4,6 +4,7 @@
    align-items: center;
    justify-content:center;
    flex-wrap: nowrap;
-   margin:auto
+   margin:auto;
+   background-color: #282c34;
 }
 
