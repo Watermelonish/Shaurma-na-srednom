@@ -1,12 +1,13 @@
-import React from 'react'
+/* eslint-disable react/prop-types */
+import React from 'react';
 
-function NotFoundPage() {
-    return (
-        <>
-            <div><p>This Page does not  exist body</p></div>
-            <div><p>This Page does not  exist body</p></div>
-        </>
-    )
+function NotFoundPage({ error }) {
+  return (
+    <>
+      <div><p>{error}</p></div>
+      <div><p>{error}</p></div>
+    </>
+  );
 }
 
-export default NotFoundPage
+export default NotFoundPage;

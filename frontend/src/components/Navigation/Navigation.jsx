@@ -1,19 +1,13 @@
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
-
-import { NavLink } from 'react-router-dom'
-
-
-const Navigation = () => {
-
-
-    return (
-        <>
-            <header>
-                <NavLink to='Main'>Главная</NavLink>
-                <NavLink to='Shop'>Магазин</NavLink>
-            </header>
-        </>
-    )
+function Navigation() {
+  return (
+    <header>
+      <NavLink to="Main">Главная</NavLink>
+      <NavLink to="Shop">Меню</NavLink>
+    </header>
+  );
 }
 
-export default Navigation
+export default Navigation;

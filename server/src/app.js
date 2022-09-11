@@ -1,14 +1,14 @@
+/* eslint-disable import/no-extraneous-dependencies */
 require('dotenv').config();
 
 const path = require('path');
 const express = require('express');
-const morgan = require('morgan');
 const session = require('express-session');
+const morgan = require('morgan');
+const cors = require('cors');
 const FileStore = require('session-file-store')(session);
-const dbConnectCheck = require('../db/dbConnectionCheck')
-
-// const { sequelize } = require('../db/models');
-
+const dbConnectCheck = require('../db/dbConnectionCheck');
+const itemsRoute = require('./routes/itemsRoute');
 
 const app = express();
 
@@ -33,14 +33,20 @@ const sessionConfig = {
   },
 };
 
+const corsOptions = {
+  credentials: true,
+  origin: 'http://localhost:3000', // адрес сервера React
+};
+app.use(cors(corsOptions));
 app.use(session(sessionConfig));
+app.use('/items', itemsRoute);
 
 app.listen(PORT, async () => {
-    try {
-      await dbConnectCheck();
-      console.log('Соединение с базой установлено!');
-    } catch (err) {
-      console.log(err, 'Error!');
-    }
-    console.log(`Сервер поднят на ${PORT} порту!`);
-  });
+  try {
+    await dbConnectCheck();
+    console.log('Соединение с базой установлено!');
+  } catch (err) {
+    console.log(err, 'Error!');
+  }
+  console.log(`Сервер поднят на ${PORT} порту!`);
+});

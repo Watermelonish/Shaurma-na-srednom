@@ -1,4 +1,5 @@
-import Layout from "./Layout/Layout";
-import Navigation from "./Navigation/Navigation";
+/* eslint-disable import/no-cycle */
+import Layout from './Layout/Layout';
+import Navigation from './Navigation/Navigation';
 
-export { Layout, Navigation};
+export { Layout, Navigation };
